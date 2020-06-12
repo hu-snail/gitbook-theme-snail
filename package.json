@@ -1,0 +1,28 @@
+{
+    "name": "gitbook-plugin-theme-snail",
+    "author": {
+      "name": "hu-snail"
+    },
+    "bugs": {
+      "url": "https://github.com/hu-snail/gitbook-theme-snail/issues"
+    },
+    "dependencies": {},
+    "description": "Gitbook theme for Snail docs",
+    "engines": {
+      "gitbook": ">=3.0.0"
+    },
+    "homepage": "https://github.com/hu-snail/gitbook-theme-snail#readme",
+    "keywords": [
+      "gitbook",
+      "theme",
+      "fexa"
+    ],
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hu-snail/gitbook-theme-snail.git"
+    },
+    "scripts": {},
+    "version": "1.0.5"
+  }
+  
