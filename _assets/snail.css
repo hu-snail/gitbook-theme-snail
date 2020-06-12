@@ -53,12 +53,12 @@ body {
   }
   
   .book-summary ul.summary li.active {
-    border-right: 3px solid #f34d4d;
+    border-right: 3px solid #42b983;
     background: #f3f1f1;
   }
   
   .book-summary ul.summary li.active>a {
-    color: #f34d4d;
+    color: #42b983;
     text-decoration: none;
   }
   
@@ -77,7 +77,7 @@ body {
     margin: 10px 0;
     padding: 0;
     border: none;
-    background: #f34d4d;
+    background: #42b983;
     user-select: none;
   }
   
@@ -162,11 +162,11 @@ body {
   
   .header-inner .header-nav li a:hover,
   .header-inner .header-nav li a.active {
-    color: #f34d4d;
+    color: #42b983;
   }
   
   .header-inner .header-nav li a.active:hover {
-    cursor: #f34d4d;
+    cursor: #42b983;
   }
   
   @media (max-width: 768px) {
@@ -207,11 +207,11 @@ body {
     white-space: nowrap;
   }
   .book-anchor a:hover {
-    color: #f34d4d;
+    color: #42b983;
     text-decoration: none;
   }
   .book-anchor .selected {
-    color: #f34d4d;
+    color: #42b983;
     text-decoration: none;
     font-weight: bold;
   }
