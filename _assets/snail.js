@@ -54,7 +54,6 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         var $search = $('#book-search-input');
         var placeholder = gitbook.state.config.pluginsConfig["theme-snail"]["search-placeholder"] || "输入关键字搜索"
         $search.find("input").attr("placeholder",placeholder);
-        $search.append("<span id='searchBtn'>搜索</span>");
         $search.focus();
         $("#searchBtn").click(function(e){});
 

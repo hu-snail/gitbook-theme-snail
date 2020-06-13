@@ -77,13 +77,14 @@ body {
     margin: 10px 0;
     padding: 0;
     border: none;
-    background: #42b983;
     user-select: none;
   }
   
   .header-inner #book-search-input input[type="text"] {
     width: 80%;
-    background: #e4e4e4;
+    background: #f2f2f2;
+    border-radius: 18px;
+    padding: 6px 13px;
   }
   
   .header-inner #book-search-input #searchBtn {
