@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../../node_modules/aplayer/dist/APlayer.min.css">
+    <link rel="stylesheet" href="APlayer.min.css">
 </head>
 <body>
 {% extends template.self %}
@@ -74,15 +74,14 @@
         {% endblock %}
         <div id="aplayer"></div>
     </div>
+    <script src="APlayer.min.js"></script>
 	<script>
-        import 'APlayer/dist/APlayer.min.css';
-        import APlayer from 'APlayer';
 		var gitbook = gitbook || [];
 		gitbook.push(function() {
 			gitbook.page.hasChanged({{ template.getJSContext()|dump|safe }});
         });
         window.onload = function () {
-            console.log(APlayer)
+            console.log(111)
         const ap = new APlayer({
             container: document.getElementById('player'),
             mini: false,
@@ -108,7 +107,7 @@
                 {
                     name: 'name2',
                     artist: 'artist2',
-                    url: 'https://cn-east-17-aplayer-35525609.oss.dogecdn.com/secretbase.mp3',
+                    url: 'url2.mp3',
                     cover: 'cover2.jpg',
                     lrc: 'lrc2.lrc',
                     theme: '#46718b'
