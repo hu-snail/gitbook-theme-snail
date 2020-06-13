@@ -52,7 +52,7 @@ body {
     top: 80px;
   }
   
-  .articles ul.summary li.active {
+  .articles li.active {
     border-right: 3px solid #42b983;
     background: #edf7f2;
   }
