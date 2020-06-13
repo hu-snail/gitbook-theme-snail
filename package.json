@@ -6,9 +6,6 @@
   "bugs": {
     "url": "https://github.com/hu-snail/gitbook-theme-snail/issues"
   },
-  "dependencies": {
-    "aplayer": "^1.10.1"
-  },
   "description": "Gitbook theme for Snail docs",
   "engines": {
     "gitbook": ">=3.0.0"
