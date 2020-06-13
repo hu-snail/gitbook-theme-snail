@@ -15,12 +15,12 @@
     "keywords": [
       "gitbook",
       "theme",
-      "fexa"
+      "snail"
     ],
     "main": "index.js",
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/hu-snail/gitbook-theme-snail.git"
+      "url": "https://github.com/hu-snail/gitbook-theme-snail.git"
     },
     "scripts": {},
     "version": "1.0.5"
