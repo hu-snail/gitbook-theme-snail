@@ -74,14 +74,15 @@
         {% endblock %}
         <div id="aplayer"></div>
     </div>
-    <script src="../../node_modules/aplayer/dist/APlayer.min.js"></script>
 	<script>
+        import 'APlayer/dist/APlayer.min.css';
+        import APlayer from 'APlayer';
 		var gitbook = gitbook || [];
 		gitbook.push(function() {
 			gitbook.page.hasChanged({{ template.getJSContext()|dump|safe }});
         });
         window.onload = function () {
-            console.log(111)
+            console.log(APlayer)
         const ap = new APlayer({
             container: document.getElementById('player'),
             mini: false,
